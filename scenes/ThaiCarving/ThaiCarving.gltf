@@ -1,0 +1,815 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2023 v20220628.14"
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "pedistal"
+    },
+    {
+      "translation": [
+        -2.22571421,
+        -0.547605336,
+        -2.90586686
+      ],
+      "rotation": [
+        0.0,
+        -0.717730761,
+        0.0,
+        0.6963208
+      ],
+      "name": "Direct001.Target"
+    },
+    {
+      "translation": [
+        -0.9119583,
+        5.51549339,
+        -0.8468801
+      ],
+      "rotation": [
+        0.0,
+        -0.717730761,
+        0.0,
+        0.6963208
+      ],
+      "name": "Spot001.Target"
+    },
+    {
+      "translation": [
+        -0.323406219,
+        6.63692665,
+        3.981426
+      ],
+      "rotation": [
+        0.0,
+        -0.717730761,
+        0.0,
+        0.6963208
+      ],
+      "name": "Spot002.Target"
+    },
+    {
+      "translation": [
+        0.171804652,
+        6.77085161,
+        1.83506978
+      ],
+      "rotation": [
+        0.0,
+        -0.717730761,
+        0.0,
+        0.6963208
+      ],
+      "name": "Camera001.Target"
+    },
+    {
+      "mesh": 1,
+      "name": "Wall_ExternalGallery"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        2.42233273E-08,
+        0.0,
+        0.0
+      ],
+      "name": "Dragon_Woman_001",
+      "extras": {
+        "currentUVSet": "UVMap"
+      }
+    },
+    {
+      "translation": [
+        1.83324349,
+        18.8120632,
+        11.7467184
+      ],
+      "rotation": [
+        -0.256199956,
+        0.369789064,
+        0.614127338,
+        0.64843297
+      ],
+      "scale": [
+        0.99999994,
+        0.99999994,
+        1.0
+      ],
+      "name": "Direct001",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    },
+    {
+      "translation": [
+        7.779253,
+        8.947999,
+        10.699234
+      ],
+      "rotation": [
+        -0.03325951,
+        0.332012415,
+        0.25715816,
+        0.9069351
+      ],
+      "name": "Spot001",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 1
+        }
+      }
+    },
+    {
+      "translation": [
+        -4.011462,
+        8.75729,
+        0.531707048
+      ],
+      "rotation": [
+        -0.445986,
+        -0.78486973,
+        -0.00217181444,
+        0.430199176
+      ],
+      "scale": [
+        1.0,
+        0.99999994,
+        0.99999994
+      ],
+      "name": "Spot002",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 2
+        }
+      }
+    },
+    {
+      "translation": [
+        18.479435,
+        0.0,
+        -22.60368
+      ],
+      "rotation": [
+        -0.707106769,
+        0.0,
+        0.0,
+        0.707106769
+      ],
+      "name": "Sky001"
+    },
+    {
+      "camera": 0,
+      "translation": [
+        0.21311155,
+        6.860578,
+        5.33367538
+      ],
+      "rotation": [
+        -0.0128188729,
+        0.00590254366,
+        7.56713562E-05,
+        0.9999004
+      ],
+      "name": "Camera001"
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "yfov": 0.457822353,
+        "zfar": 10000.0,
+        "znear": 0.1
+      },
+      "type": "perspective",
+      "name": "Camera001"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TANGENT": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "pedistal"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "TANGENT": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 5,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 11,
+            "TANGENT": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 10,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 16,
+            "TANGENT": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19
+          },
+          "indices": 15,
+          "material": 3
+        }
+      ],
+      "name": "Wall_ExternalGallery"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "TANGENT": 22,
+            "NORMAL": 23,
+            "TEXCOORD_0": 24
+          },
+          "indices": 20,
+          "material": 4
+        }
+      ],
+      "name": "Dragon_Woman_001"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 1188,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 320,
+      "max": [
+        1.19638014,
+        4.58271027,
+        2.85964513
+      ],
+      "min": [
+        -0.8527709,
+        0.0106303589,
+        0.810494
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 320,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3840,
+      "componentType": 5126,
+      "count": 320,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 320,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2376,
+      "componentType": 5123,
+      "count": 2592,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7680,
+      "componentType": 5126,
+      "count": 1640,
+      "max": [
+        9.97864151,
+        18.9745121,
+        1.57333028
+      ],
+      "min": [
+        -10.1970186,
+        -0.06321397,
+        -4.55925655
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5120,
+      "componentType": 5126,
+      "count": 1640,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 27360,
+      "componentType": 5126,
+      "count": 1640,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2560,
+      "componentType": 5126,
+      "count": 1640,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 7560,
+      "componentType": 5123,
+      "count": 3984,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 47040,
+      "componentType": 5126,
+      "count": 1104,
+      "max": [
+        11.3614445,
+        12.8211708,
+        2.82666159
+      ],
+      "min": [
+        -11.3614445,
+        0.0542796329,
+        -1.35175622
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 31360,
+      "componentType": 5126,
+      "count": 1104,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 60288,
+      "componentType": 5126,
+      "count": 1104,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 15680,
+      "componentType": 5126,
+      "count": 1104,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 15528,
+      "componentType": 5123,
+      "count": 126,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 73536,
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        12.3997717,
+        0.03937899,
+        17.13474
+      ],
+      "min": [
+        -12.3997736,
+        -0.0393797681,
+        -3.45272255
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 49024,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 74112,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24512,
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 15780,
+      "componentType": 5123,
+      "count": 44424,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 74688,
+      "componentType": 5126,
+      "count": 8989,
+      "max": [
+        1.14571059,
+        8.596352,
+        2.88031864
+      ],
+      "min": [
+        -0.8241905,
+        4.5639987,
+        1.250251
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 49792,
+      "componentType": 5126,
+      "count": 8989,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 182556,
+      "componentType": 5126,
+      "count": 8989,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24896,
+      "componentType": 5126,
+      "count": 8989,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 104628,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 104628,
+      "byteLength": 290424,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 395052,
+      "byteLength": 193616,
+      "byteStride": 16,
+      "name": "bufferViewFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 588668,
+      "byteLength": 96808,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "ThaiCarving.bin",
+      "byteLength": 685476
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "doubleSided": true,
+      "name": "pedistal",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 3,
+        "scale": 0.3
+      },
+      "doubleSided": true,
+      "name": "Wall_ExternalGallery_Lower&Fence"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 8
+        },
+        "metallicRoughnessTexture": {
+          "index": 7
+        }
+      },
+      "normalTexture": {
+        "index": 6,
+        "scale": 0.3
+      },
+      "occlusionTexture": {
+        "index": 7
+      },
+      "doubleSided": true,
+      "name": "Columb_Exterior"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 11
+        },
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      },
+      "normalTexture": {
+        "index": 9,
+        "scale": 0.3
+      },
+      "occlusionTexture": {
+        "index": 10
+      },
+      "doubleSided": true,
+      "name": "Floor_GalleryInterior"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 14
+        },
+        "metallicRoughnessTexture": {
+          "index": 13
+        }
+      },
+      "normalTexture": {
+        "index": 12,
+        "scale": 0.3
+      },
+      "occlusionTexture": {
+        "index": 13
+      },
+      "doubleSided": true,
+      "name": "ThaiCarving",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "InteriorWall_N.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "InteriorWall_ORM.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "InteriorWall_D.png"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "ExternalGallery_N.png"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "ExternalGallery_Wall_D.png"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "ExternalGallery_Wall_ORM.png"
+    },
+    {
+      "sampler": 0,
+      "source": 6,
+      "name": "ColumnExterior_N.png"
+    },
+    {
+      "sampler": 0,
+      "source": 7,
+      "name": "ColumnExterior_ORM.png"
+    },
+    {
+      "sampler": 0,
+      "source": 8,
+      "name": "ColumnExterior_D.png"
+    },
+    {
+      "sampler": 0,
+      "source": 9,
+      "name": "InternalGalleryFloor_N.png"
+    },
+    {
+      "sampler": 0,
+      "source": 10,
+      "name": "InternalGalleryFloor_ORM.png"
+    },
+    {
+      "sampler": 0,
+      "source": 11,
+      "name": "InternalGalleryFloor_D.png"
+    },
+    {
+      "sampler": 0,
+      "source": 12,
+      "name": "ThaiCarving_MAT_normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 13,
+      "name": "ThaiCarving_MAT_occlusionRoughnessMetallic.png"
+    },
+    {
+      "sampler": 0,
+      "source": 14,
+      "name": "ThaiCarving_MAT_baseColor.png"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Textures/InteriorWall_N.png"
+    },
+    {
+      "uri": "Textures/InteriorWall_ORM.png"
+    },
+    {
+      "uri": "Textures/InteriorWall_D.png"
+    },
+    {
+      "uri": "Textures/ExternalGallery_N.png"
+    },
+    {
+      "uri": "Textures/ExternalGallery_Wall_D.png"
+    },
+    {
+      "uri": "Textures/ExternalGallery_Wall_ORM.png"
+    },
+    {
+      "uri": "Textures/ColumnExterior_N.png"
+    },
+    {
+      "uri": "Textures/ColumnExterior_ORM.png"
+    },
+    {
+      "uri": "Textures/ColumnExterior_D.png"
+    },
+    {
+      "uri": "Textures/InternalGalleryFloor_N.png"
+    },
+    {
+      "uri": "Textures/InternalGalleryFloor_ORM.png"
+    },
+    {
+      "uri": "Textures/InternalGalleryFloor_D.png"
+    },
+    {
+      "uri": "Textures/ThaiCarving_MAT_normal.png"
+    },
+    {
+      "uri": "Textures/ThaiCarving_MAT_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Textures/ThaiCarving_MAT_baseColor.png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "intensity": 2.0,
+          "type": "directional"
+        },
+        {
+          "intensity": 6.0,
+          "type": "spot",
+          "spot": {
+            "outerConeAngle": 0.3926991
+          }
+        },
+        {
+          "intensity": 4.0,
+          "type": "spot",
+          "spot": {
+            "outerConeAngle": 0.3926991
+          }
+        }
+      ]
+    }
+  }
+}
